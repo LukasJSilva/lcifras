@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LCifras - sua fonte de cifras e acordes</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo-search">
+                <a href="index.html"> <!-- Adiciona o link para a página inicial -->
+            <img src="imagens/logo.png" alt="Logo LCifras" style="max-width: 50px; height: auto; border-radius: 25%;">
+            <div class="search">
+                <input type="text" placeholder="O que você quer tocar?">
+                <button><img src="imagens/lupa.png" alt="Ícone de pesquisa"></button>
+                <a href="#" class="btn-login" >Entrar</a> <!-- Botão de login -->
+            </div>
+        </div>
+       
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="musicas.html">Músicas</a></li>
+                <li><a href="artistas.html">Artistas</a></li>
+                <li><a href="aprenda.html">Dicas</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">Enviar Cifra</a></li>
+                </ul>
+            </nav>
+           
+    </header>
+
+    <div class="separator"></div>
+
+    <section class="topics">
+        <section class="content">
+        <div class="container">
+            <ul class="topic-list">
+                <li class="topic-item active">Todos</li>
+                <li class="topic-item">Rock</li>
+                <li class="topic-item">Sertanejo</li>
+                <li class="topic-item">Gospel/Religioso</li>
+                <li class="topic-item">MPB</li>
+                <li class="topic-item">Mais</li>
+            </ul>
+        </div>
+    </section>
+    </section>
+
+    <div class="login-container" style="display: none;">
+        <div class="login-box">
+            <h2>Login</h2>
+            <form>
+                <input type="email" placeholder="E-mail" required>
+                <input type="password" placeholder="Senha" required>
+                <button type="submit">Entrar</button>
+                <a href="#">Esqueci minha senha</a>
+            </form>
+        </div>
+    </div>
+    
+
+    <section class="hero">
+        <div class="container">
+            <h1>Ao explorar suas músicas favoritas, você aprenderá como tocá-las!</h1>
+            <p>Um vasto catálogo de cifras e acordes de músicas de todos os gêneros e artistas disponíveis.</p>
+            <a href="#videos" class="btn">Começar agora</a>
+        </div>
+    </section>
+
+    <section class="featured">
+        <div class="container">
+            <h2>Músicas em destaque</h2>
+            <div class="two-columns">
+                <ul class="column">
+                    <a href="#">
+                    <li data-number="1">
+                        <span class="song-title">Tu És / Águas Purificadoras (Pot-pourri)</span>
+                        <span class="artist">Florianópolis House Of Prayer (fhop music)</span>
+                    </a>
+                    </li>
+                    <a href="#">
+                    <li data-number="2">
+                        <span class="song-title">Bondade de Deus</span>
+                        <span class="artist">Isaías Saad</span>
+                    </a>
+                    </li>
+                    <a href="#">
+                    <li data-number="3">
+                        <span class="song-title">Porque Ele Vive</span>
+                        <span class="artist">Harpa Cristã</span>
+                    </a>
+                    </li>
+                    <a href="#">
+                        <li data-number="4">
+                        <span class="song-title">Boate Azul</span>
+                        <span class="artist">Bruno e Marrone</span>
+                    </a>
+                    </li>
+                    <a href="#">
+                    <li data-number="5">
+                        <span class="song-title">Me Atraiu</span>
+                        <span class="artist">Gabriela Rocha</span>
+                    </a>
+                    </li>
+                </ul>
+                <ul class="column">
+                    <a href="#">
+                    <li data-number="6">
+                        <span class="song-title">Só Tu És Santo</span>
+                        <span class="artist">Morada</span>
+                    </a>
+                    </li>
+                    <a href="#">
+                    <li data-number="7">
+                        <span class="song-title">Jeová Jireh</span>
+                        <span class="artist">Aline Barros</span>
+                    </a>
+                    </li>
+                    <a href="#">
+                        <li data-number="8">
+                            <span class="song-title">Pode Morar Aqui</span>
+                            <span class="artist">Theo Rubia</span>
+                        </a>
+                        </li>
+                        <a href="#">
+                        <li data-number="9">
+                            <span class="song-title">Eu Sou Teu Pai</span>
+                            <span class="artist">Valesca Mayssa</span>
+                        </a>
+                        </li>
+                        <a href="#">
+                        <li data-number="10">
+                            <span class="song-title">Oh, Quão Lindo Esse Nome É (What A Beautiful Name)</span>
+                            <span class="artist">Ana Nóbrega</span>
+                        </a>
+                        </li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="container">
+            <a href="#" class="btn2 btn-wide">Ver mais músicas</a>
+        </div>
+    </section>
+    
+    
+    <section class="top-artists">
+        <div class="container">
+            <h2>Artistas Principais</h2>
+            <ul class="artist-list">
+                <li class="artist-item">
+                    <a href="#">
+                        <div class="artist-info">
+                            <img src="imagens/Harpa _Cristã.jpg" alt="Harpa Cristã" class="artist-image">
+                            <span class="artist-name">Harpa Cristã</span>
+                        </div>
+                    </a>
+                </li>
+                <li class="artist-item">
+                    <a href="#">
+                        <div class="artist-info">
+                            <img src="imagens/Bruno _e _Marrone.jpg" alt="Bruno e Marrone" class="artist-image">
+                            <span class="artist-name">Bruno e Marrone</span>
+                        </div>
+                    </a>
+                </li>
+                <li class="artist-item">
+                    <a href="#">
+                        <div class="artist-info">
+                            <img src="imagens/Florianópolis_House _Of _Prayer.png" alt="Florianópolis House Of Prayer (fhop music)" class="artist-image">
+                            <span class="artist-name">Florianópolis House Of Prayer (fhop music)</span>
+                        </div>
+                    </a>
+                </li>
+                <li class="artist-item">
+                    <a href="#">
+                        <div class="artist-info">
+                            <img src="imagens/Fernandinho.jpg" alt="Fernandinho" class="artist-image">
+                            <span class="artist-name">Fernandinho</span>
+                        </div>
+                    </a>
+                </li>
+                <li class="artist-item">
+                    <a href="#">
+                        <div class="artist-info">
+                            <img src="imagens/Músicas _Católicas.jpg" alt="Músicas Católicas" class="artist-image">
+                            <span class="artist-name">Músicas Católicas</span>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="container">
+            <a href="#" class="btn btn2-wide">Ver mais artistas</a>
+        </div>
+    </section>
+    
+    <section id="videos" class="videos">
+        <div class="container">
+            <div class="videos-heading">
+                <h2>Vídeos</h2>
+            </div>
+            <ul class="video-list">
+                <li class="video-item">
+                    <img src="imagens/juzzepo-yBGpO7w3dl4-unsplash.jpg" alt="Título do Vídeo 1">
+                    <div class="video-info">
+                    <h3 class="video-title">Como ouvir música instrumental?</h3>
+                </div>
+                </li>
+                
+                    <li class="video-item">
+                        <img src="imagens/jefferson-santos-fCEJGBzAkrU-unsplash.jpg" alt="Título do Vídeo 1">
+                        <div class="video-info">
+                        <h3 class="video-title">SHOULD I STAY OR SHOULD I GO (aula de violão completa)</h3>
+                    </div>
+           
+                <li class="video-item">
+                    <img src="imagens/jacek-dylag-hUHzaiAHuUc-unsplash.jpg" alt="Título do Vídeo 1">
+                    <div class="video-info">
+                    <h3 class="video-title">ANJOS DE DEUS (Aula de Violão Completa)</h3>
+                    
+                    <li class="video-item">
+                        <img src="imagens/42-north--G50vpGzaes-unsplash.jpg" alt="Título do Vídeo 1">
+                        <div class="video-info">
+                        <h3 class="video-title">ALWAYS - Blink-182 (Simplificada) | Como tocar no violão</h3>
+
+                </ul>
+</div>
+        <div class="container">
+        <a href="#" class="btn3 btn3-wide">Mostrar mais vídeos</a>
+</div>
+
+</section>
+    
+<section class="tips">
+    <div class="container">
+        <h2>Dicas e Tutoriais</h2>
+        <ul class="tips-list">
+            <li class="tip-item">Como afinar sua guitarra!</li>
+            <li class="tip-item">Como aprender novos acordes rapidamente!</li>
+            <li class="tip-item">Técnicas avançadas de dedilhado</li>
+            <li class="tip-item">Como compor suas próprias músicas!</li>
+        </ul>
+        <a href="#" class="btn4 btn4-wide">Ver Mais Dicas</a>
+    </div>
+</section>
+    
+<footer>
+    <div class="container">
+        <div class="artist-navigation">
+            <p>Todos os artistas: 
+                <ul class="artist-alphabet">
+                    <li><a href="#">A</a></li>
+                    <li><a href="#">B</a></li>
+                    <li><a href="#">C</a></li>
+                    <li><a href="#">D</a></li>
+                    <li><a href="#">E</a></li>
+                    <li><a href="#">F</a></li>
+                    <li><a href="#">G</a></li>
+                    <li><a href="#">H</a></li>
+                    <li><a href="#">I</a></li>
+                    <li><a href="#">J</a></li>
+                    <li><a href="#">K</a></li>
+                    <li><a href="#">L</a></li>
+                    <li><a href="#">M</a></li>
+                    <li><a href="#">N</a></li>
+                    <li><a href="#">O</a></li>
+                    <li><a href="#">P</a></li>
+                    <li><a href="#">Q</a></li>
+                    <li><a href="#">R</a></li>
+                    <li><a href="#">S</a></li>
+                    <li><a href="#">T</a></li>
+                    <li><a href="#">U</a></li>
+                    <li><a href="#">V</a></li>
+                    <li><a href="#">W</a></li>
+                    <li><a href="#">X</a></li>
+                    <li><a href="#">Y</a></li>
+                    <li><a href="#">Z</a></li>
+                    <li><a href="#">0-9</a></li>
+                </ul>
+            </p>
+        </div>
+
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+
+        <p>&copy; 2024 LCifras. Todos os direitos reservados.</p>
+    </div>
+</footer>
+
+<script src="videos.js"></script>
+<script src="login.js"></script>
+
+
+</body>
+</html>
