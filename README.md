@@ -20,7 +20,7 @@ Projeto desenvolvido integralmente por mim, incluindo toda a estrutura, design e
 
 ## Sobre o autor
 Lucas José Gomes da Silva  
-[GitHub](https://github.com/LukasJSilva) | [LinkedIn](www.linkedin.com/in/lucasjosegsilva)
+[GitHub](https://github.com/LukasJSilva) | [LinkedIn](https://www.linkedin.com/in/lucasjosegsilva)
 
 ## Estado do projeto  
 Este é um projeto acadêmico em fase inicial, desenvolvido para fins de aprendizado. Algumas funcionalidades ainda estão em desenvolvimento, e alguns botões podem não levar a telas ou ações completas.
